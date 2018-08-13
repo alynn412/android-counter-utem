@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/b_Plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="171dp"
+        android:onClick="buttonPlus"
+        android:text="Plus (+)"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <Button
+        android:id="@+id/b_Minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="279dp"
+        android:onClick="buttonMinus"
+        android:text="Minus (-)"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="768dp" />
+
+    <Button
+        android:id="@+id/b_Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="138dp"
+        android:onClick="buttonReset"
+        android:text="RESET"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="356dp"
+        tools:layout_editor_absoluteY="977dp" />
+
+    <TextView
+        android:id="@+id/tv_Num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="366dp"
+        android:text="0"
+        android:textSize="100sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+</RelativeLayout>
